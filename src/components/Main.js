@@ -23,7 +23,7 @@ const UnstyledMain = ({
       className={classNames(className)}
       style={{ backgroundColor }}
     >
-      my app hehe
+      my app hehe ;)
       <button onClick={handleDarkModeClick}>
         dark mode: {darkMode ? 'ON' : 'OFF'}
       </button>
