@@ -23,11 +23,11 @@ const UnstyledMain = ({
 
   useEffect(() => {
     dispatch(fetchUsers());
-  }, [dispatch, fetchUsers]);
+  }, [dispatch]);
 
   const handleDarkModeClick = useCallback(() => {
     dispatch(toggleDarkMode());
-  }, [dispatch, toggleDarkMode]);
+  }, [dispatch]);
 
   return (
     <div
